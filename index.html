@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+</head>
+
+<body>
+    <h1>Media Player</h1>
+    <video id="videoPlayer" width="400" controls></video>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileInput" style="display: none;">
+        <label for="fileInput">Select File</label>
+    </form>
+    <script src="./client.js"></script>
+</body>
+
+</html>
